@@ -25,10 +25,10 @@ function Home() {
           />
           <Product
             id="49538094"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-            price={239.0}
+            title="Fullstar 9-in-1 Deluxe Vegetable Chopper Kitchen Gifts | Onion Chopper & Dicer | Peeler, Spiralizer, Zoodle Maker, Lemon Squeezer, Egg Slicer & Seperator- Ultimate Kitchen Gadget"
+            price={34.0}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+            image="https://m.media-amazon.com/images/I/915Jnh4JIcL._AC_SL1500_.jpg"
           />
 
           <Product
@@ -49,10 +49,10 @@ function Home() {
           />
           <Product
             id="4903850"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-            price={199.99}
+            title="Jovivi Natural Amethyst Crystal Money Tree Crystal Quartz Feng Shui Wealth Ornament Tree of Life Healing Crystals Reiki Office..."
+            price={46.99}
             rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+            image="https://images-na.ssl-images-amazon.com/images/I/816NVuLVUUL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
           />
 
           <Product
@@ -64,10 +64,10 @@ function Home() {
           />
           <Product
             id="23445930"
-            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
-            price={98.99}
+            title="EDUPLINK Portable Bluetooth Speaker Waterproof IPX7 Wireless Speaker with 20W Louder Speakers Switch Between Bluetooth Pairing and Aux-in Mode by Phone Button Black"
+            price={39.99}
             rating={5}
-            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+            image="https://m.media-amazon.com/images/I/71is4M24SJL._AC_SX522_.jpg"
           />
           <Product
             id="3254354345"

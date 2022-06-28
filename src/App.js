@@ -16,9 +16,8 @@ const promise = loadStripe(
   "pk_live_51LDaZ1EnCVDhU3cmiqliLySKzcsTfsC6SA0AZ2Z68nQHgoWdPe3dqZFG5bAgx0W3IldzY4sMmKfdiOwq0QHYe6rl00kiXkNWFD"
 );
 
-<Elements stripe={promise}>
-  <Payment />
-</Elements>;
+{
+}
 function App() {
   const [{}, dispatch] = useStateValue();
   useEffect(() => {
@@ -40,20 +39,22 @@ function App() {
       }
     });
   }, []);
+
   return (
     <Router>
       <div className="App">
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/checkout" element={[<Header />, <Checkout />]} />
-          <Route>
-            path="/payment" element=
-            {
+          <Route
+            path="/payment"
+            element={
               <Elements stripe={promise}>
                 <Payment />
               </Elements>
             }
-          </Route>
+          />
+          <Route path="/orders" element={[<Header />, <Orders />]} />
           <Route path="/" element={[<Header />, <Home />]} />
         </Routes>
       </div>
